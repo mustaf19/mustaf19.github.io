@@ -395,6 +395,10 @@ form .btn2{
         font-size: 23px;
     }
 
+    .header-text h1 span{
+        font-size: 50px;
+    }
+
     nav .fas{
         display: block;
         font-size: 25px;
