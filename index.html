@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <!-- <script src=""></script> -->
 </head>
-<body>
+<body onload="alertUser('Hello, wanted to let you know, I am working on this site and this is not COMPLETE YET. But, you can visit!')">
     <div id="background-pattern"></div>
     <nav id="nav2">
         <div></div>
@@ -178,6 +178,12 @@
             document.getElementById(tabname).classList.add("active-tab");
 
         }
+    </script>
+
+    <script>
+        function alertUser(msg) {
+            alert(msg);
+            }
     </script>
 
 </body>
