@@ -1,29 +1,20 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: monospace;
     box-sizing: border-box;
 
     
 }
 
+body{
+    background-color: whitesmoke;
+
+}
+
 a{
     text-decoration: none;
     color: black;
-}
-
-
-
-#background-pattern{
-    background-color: #F0F0F0;
-    height: 100vh;
-    width: 100%;
-    background-color: #451952;
-    opacity: 1;
-    background: radial-gradient(circle, transparent 20%, #451952 20%, #451952 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #451952 20%, #451952 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#662549 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #662549 2px, #451952 2px) -1px 0;
-    background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
-    position: fixed;
-    z-index:-1;
 }
 
 #header{
@@ -36,18 +27,20 @@ a{
 AE445A
 F39F5A */
 .header-text h1{
-    font-size: 30px;
+    font-size: 23px;
     margin-top: 20px;
-    color: #AE445A;
+    color: #262626;
+    font-family: monospace;
 }
 
 .header-text h1 span{
     font-size: 60px;
-    color: #F39F5A;
+    color: #393939;
+    /* text-shadow: 1px 1px 10px black; */
 }
 
 .header-text h1 span span{
-    color:#eaffab;
+    color: #000000;
 }
 
 .container{
@@ -124,7 +117,7 @@ nav li a{
 #about{
     padding: 80px 0;
     color: #000000;
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
 }
 
 .row{
@@ -152,6 +145,10 @@ nav li a{
 .sub-title{
     font-size: 60px;
     font-weight: 600;
+}
+
+.about-col-2 p{
+    font-size: 17px;
 }
 
 .tab-titles{
@@ -205,7 +202,6 @@ nav li a{
 
 #portfolio{
     padding: 50px 0;
-    background-color: burlywood;
 }
 
 .work-list{
@@ -392,10 +388,11 @@ form .btn2{
 
 @media only screen and (max-width: 600px){
     .header-text{
+        margin-top: 50%;
         font-size: 16px;
     }
     .header-text h1{
-        font-size: 30px;
+        font-size: 23px;
     }
 
     nav .fas{
@@ -444,7 +441,7 @@ form .btn2{
     }
 
     .about-col-2{
-        font-size: 14px;
+        font-size: 17px;
     }
 
     .tab-links{
